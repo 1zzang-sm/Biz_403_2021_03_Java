@@ -46,4 +46,9 @@
 * git add .
 * git commit -m "comment"
 * git push https://.... master
-git push https://github.com/1zzang-sm/Biz_403_2021_03_Java.git master
+* git push https://github.com/1zzang-sm/Biz_403_2021_03_Java.git master
+
+## 원격저장소와 연결된 프로젝트에 새로운 코드 추가하기
+* git add . 
+* git commit -m "Hello_02 추가"
+* git push https://github.com/1zzang-sm/Biz_403_2021_03_Java.git master
