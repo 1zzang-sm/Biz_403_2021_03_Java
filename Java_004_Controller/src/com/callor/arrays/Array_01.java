@@ -18,11 +18,14 @@ public class Array_01 {
 
 		}
 		int intSum = 0;
+		float floatAvg =0f;
+		
 		for (int i = 0; i < 100; i++) {
 			// intSum += intKors[0];
 			// :
 			// intSum += intKors[99];
 			intSum += intKors[i];
+			floatAvg = intSum/100f;
 
 		}
 		System.out.println("==================");
@@ -30,7 +33,7 @@ public class Array_01 {
 			System.out.printf("학생 %d : %d\n",i+1,intKors[i]);
 		}
 		System.out.println("------------------");
-		System.out.printf("총점:%d 평균:",intSum,);
+		System.out.printf("총점:%d 평균:%.2f\n",intSum,floatAvg);
 
 	}
 
