@@ -30,7 +30,7 @@ public class ScoreServiceV1 {
 			System.out.println("국어시험 점수");
 			System.out.print(">> ");
 			intKors[i] = scan.nextInt();
-			System.out.println("영어시험 점수.");
+			System.out.println("영어시험 점수");
 			System.out.print(">> ");
 			intEngs[i] = scan.nextInt();
 			System.out.println("수학시험 점수");
