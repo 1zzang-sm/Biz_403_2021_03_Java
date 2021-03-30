@@ -14,12 +14,12 @@ public class AddressServiceV1 {
 	}
 	
 	// AddressVO 클래스를 매개변수로 받는 method
-	public void printAddress(AddressVO adVO) {
+	public void printAddress() {
 		
-		System.out.println(adVO.name);
-		System.out.println(adVO.email);
-		System.out.println(adVO.chain);
-		System.out.println(adVO.address);
-		System.out.println(adVO.cellphone);
+		//System.out.println(adVO.name);
+		//System.out.println(adVO.email);
+		//System.out.println(adVO.chain);
+		//System.out.println(adVO.address);
+		//System.out.println(adVO.cellphone);
 	}
 }
