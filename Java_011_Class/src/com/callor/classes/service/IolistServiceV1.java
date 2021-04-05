@@ -62,7 +62,7 @@ public class IolistServiceV1 {
 				// TODO: handle exception
 				System.out.println("메뉴선택 오류!!");
 				System.out.println("메뉴는 1 ~ 2, QUIT 만 입력가능");
-				continue;
+				
 			}
 			
 			 if (intMenu == 1) {
