@@ -20,8 +20,8 @@ public class ScoreServiceV1 {
 			} else if (retNum < start || retNum > end) {
 				System.out.println("입력범위를 확인해주세요");
 				continue;
-			}else {
-				System.out.println("입력한 값은 " + retNum);
+			} else {
+				System.out.println(title + "의 점수는" + retNum);
 			}
 			return retNum;
 		}

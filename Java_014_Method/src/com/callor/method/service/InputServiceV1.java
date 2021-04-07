@@ -1,4 +1,4 @@
-package com.callor.method;
+package com.callor.method.service;
 
 import java.util.Scanner;
 
@@ -9,10 +9,12 @@ import java.util.Scanner;
  * 4. 입력 값이 QUIT이면 null을 return하고
  * 5. 정수이면 정수 값을 return
  */
-public class InputNumberV1 {
+public class InputServiceV1 {
 	/*
-	 * Scanner class는 키보드 자원을 연동하여 키보드로 부터 값을 입력받기 위한 클래스이다 이 클래스는 컴퓨터의 자원을 사용하는 관리가
-	 * 매우 엄격하게 필요한 클래스이다. 사용하는 방법에 따라, 오류가 발생하거나 심지어 컴퓨터 시스템이 멈추는 현상까지 발생할 수 있다. 이러한
+	 * Scanner class는 키보드 자원을 연동하여 키보드로 부터 값을 입력받기 위한 클래스이다
+	 *  이 클래스는 컴퓨터의 자원을 사용하는 관리가
+	 * 매우 엄격하게 필요한 클래스이다. 사용하는 방법에 따라, 
+	 * 오류가 발생하거나 심지어 컴퓨터 시스템이 멈추는 현상까지 발생할 수 있다. 이러한
 	 * 클래스는 사용할때 상당한 주의가 필요하다.
 	 */
 	// Scanner 클래스를 main() method가 아닌 Service 등의 클래스에서
@@ -20,7 +22,7 @@ public class InputNumberV1 {
 
 	protected Scanner scan;
 
-	public InputNumberV1() {
+	public InputServiceV1() {
 		scan = new Scanner(System.in);
 	}
 	/*문자열, 정수, 정수, 매개변수를 갖는 method 선언
