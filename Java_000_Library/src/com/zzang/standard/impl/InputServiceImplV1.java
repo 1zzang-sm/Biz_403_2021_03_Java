@@ -30,7 +30,7 @@ import com.zzang.standard.InputService;
  * 
  */
 public class InputServiceImplV1 implements InputService {
-
+	
 	protected Scanner scan;
 	public InputServiceImplV1() {
 		scan = new Scanner(System.in);
@@ -81,7 +81,6 @@ public class InputServiceImplV1 implements InputService {
 			return intIn;
 		}//end while
 	}
-
 	@Override
 	public Integer inputValue(String title, int start, int end) {
 		// TODO 제목, 시작값, 종료값으로 유효성 검사 method
