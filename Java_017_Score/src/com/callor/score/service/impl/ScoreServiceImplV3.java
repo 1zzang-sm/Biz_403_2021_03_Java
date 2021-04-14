@@ -30,7 +30,18 @@ public class ScoreServiceImplV3 extends ScoreServiceImplV2Ex{
 		
 		FileReader fileReader = null;
 		BufferedReader buffer = null;
+		/*
+		 * 	List에 있는 removeAll() method는 
+		 * 		2개의 list에 중복된 데이터가 있으면  붕복된 데이터를 삭제하는 method
+		 *  List type에 데이터를 새로 추가하고자 할때는 
+		 *  기존의 데이터를 삭제하고 추가를 해야한다.
+		 *  이때 사용할 수 있는 코드
+		 *  
+		 *  파일이나 데이터베이스에서 데이터를 가져와서 
+		 *  	List에 반영하고자 할때 먼저 실행해주는 코드
+		 */
 		
+		scoreList.removeAll(scoreList);
 		try {
 			fileReader = new FileReader(readFile);
 			buffer = new BufferedReader(fileReader);
