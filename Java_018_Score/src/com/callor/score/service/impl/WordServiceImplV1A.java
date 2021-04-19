@@ -19,7 +19,7 @@ public class WordServiceImplV1A implements WordService {
 	protected Scanner scan;
 
 	public WordServiceImplV1A() {
-
+		
 		wordList = new ArrayList<WordVO>();
 		scan = new Scanner(System.in);
 		// word.txt 파일을 읽어서 wordList 데이터를 생성하는 method를
