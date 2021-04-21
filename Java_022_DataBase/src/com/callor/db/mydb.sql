@@ -1,0 +1,2 @@
+SELECT * FROM TBL_IOLIST;
+SELECT * FROM tbl_student;
